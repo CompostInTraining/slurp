@@ -124,7 +124,7 @@ const (
 
 const (
 	oauthRedirect = "urn:ietf:wg:oauth:2.0:oob"
-	oauthScopes   = "read write"
+	oauthScopes   = "read write admin"
 )
 
 // LoginKeyring sets the keyring pref and returns the appropriate keyring (system or file).
